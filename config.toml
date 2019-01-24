@@ -1,0 +1,100 @@
+baseurl = "https://chrisumphlett.github.io"
+title = "Chris Umphlett"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Chris Umphlett"
+    description = "Chris Umphlett's personal website"
+    keywords = "data science,personal"
+    info = "Data Scientist and armchair behavioral economist"
+    avatarurl = "images/headshot.png"
+    footercontent = "Enter a text here."
+
+    dateformat = "January 23, 2019"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Custom CSS
+    custom_css = []
+
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/chrisumphlett/"
+[[params.social]]
+    name = "Stack Exchange"
+    icon = "fab fa-stack-exchange"
+    weight = 2
+    url = "https://stats.stackexchange.com/users/204319/chris-umphlett"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/chrisumphlett/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/chris-umphlett"
+[[params.social]]
+	title = "email"
+	icon = "fas fa-envelope"
+    weight = 5
+	url = "mailto:christopher.umphlett@gmail.com"
+
+[languages]
+    [languages.en]
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Chris Umphlett"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+        author = "Chris Umphlett"
+        info = "Data Scientist and armchair behavioral economist"
+        description = "Chris Umphlett's personal website"
+        keywords = "data science,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
+
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
+
+        [[languages.en.menu.main]]
+        name = "Projects"
+        weight = 3
+        url = "/projects/"
+
+        [[languages.en.menu.main]]
+        name = "Contact me"
+        weight = 5
+        url = "/contact/"
